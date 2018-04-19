@@ -104,6 +104,7 @@ function createText(x, y, content, fill) {
    text.setAttribute("y", y + 10);
    text.setAttribute("fill", fill);
    text.setAttribute("font-family", "Arial,Helvetica");
+   text.setAttribute("font-weight", "bold");
    text.setAttribute("font-size", "30px");
    text.setAttribute("stroke", "none");
    text.setAttribute("text-anchor", "middle");
