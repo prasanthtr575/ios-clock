@@ -1,7 +1,7 @@
 const svgNS = "http://www.w3.org/2000/svg";
 const viewPortWidth = window.innerWidth;
 const viewPortHeight = window.innerHeight;
-const viewPortMargin = 100;
+const viewPortMargin = 20;
 const clockSize = (viewPortWidth > viewPortHeight ? viewPortHeight : viewPortWidth) - viewPortMargin;
 const svgEl = document.getElementById("svgEl");
 const cx = clockSize / 2;
