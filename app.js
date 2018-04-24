@@ -39,6 +39,7 @@ function createClock() {
    let redCapCircle = createCircle(cx, cy, 6, "red", 0, "red");
    let grayCapCircle = createCircle(cx, cy, 2, "gray", 0, "gray");
    let blackCapCircle = createCircle(cx, cy, 12, "black", 0, "black");
+   let pinCircle = createCircle(cx, cy, 0.25, "black", 0, "black");
 
    svgEl.appendChild(hrHand);
    svgEl.appendChild(minHand);
@@ -47,6 +48,7 @@ function createClock() {
    svgEl.appendChild(secBalanceHand);
    svgEl.appendChild(redCapCircle);
    svgEl.appendChild(grayCapCircle);
+   svgEl.appendChild(pinCircle);
 
    setupHand(sec, cx, cy, r - 10, 60, "secHand", "seconds", 90);
    setupHand(sec, cx, cy, 20, 60, "secBalanceHand", "seconds", -90);
